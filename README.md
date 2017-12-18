@@ -1,2 +1,2 @@
 # Gideon
-A Whole Web Downloader for downloading an entire website
+A Web Downloader for downloading an entire website
