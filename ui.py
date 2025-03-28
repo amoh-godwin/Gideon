@@ -4,7 +4,7 @@ Thank you Heavenly Father
 """
 
 import sys
-from PyQt5 import QtWidgets
+from PyQt6 import QtWidgets
 import os
 import re
 import httplib2
@@ -459,4 +459,4 @@ class Window(QtWidgets.QWidget):
 
 app = QtWidgets.QApplication(sys.argv)
 a_window = Window()
-sys.exit(app.exec_())
+sys.exit(app.exec())
