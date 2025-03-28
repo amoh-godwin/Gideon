@@ -4,7 +4,7 @@ Thank you Heavenly Father
 """
 
 import sys
-from PyQt5 import QtWidgets
+from PyQt6 import QtWidgets
 import os
 import re
 import httplib2
