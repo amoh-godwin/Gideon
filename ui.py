@@ -459,4 +459,4 @@ class Window(QtWidgets.QWidget):
 
 app = QtWidgets.QApplication(sys.argv)
 a_window = Window()
-sys.exit(app.exec_())
+sys.exit(app.exec())
