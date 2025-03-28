@@ -379,7 +379,7 @@ class Window(QtWidgets.QWidget):
         if data != '':
             print('data')
             self.infobox.setText('Downloading')
-            self.current += 1;
+            self.current += 1
             percent = (self.current / len(self.queued_files) ) * 100
             self.progress.setValue(percent)
             self.infobox1.setText(str(self.current))
